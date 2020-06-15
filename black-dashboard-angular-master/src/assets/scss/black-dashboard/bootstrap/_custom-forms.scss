@@ -181,6 +181,7 @@
   appearance: none;
 
   &:focus {
+    border: thin solid black;
     border-color: $custom-select-focus-border-color;
     outline: 0;
     @if $enable-shadows {

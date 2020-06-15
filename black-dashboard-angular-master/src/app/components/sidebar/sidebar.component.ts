@@ -10,53 +10,53 @@ declare interface RouteInfo {
 export const ROUTES: RouteInfo[] = [
   {
     path: "/dashboard",
-    title: "Painel de controle",
+    title: "Painel de Dados",
     rtlTitle: "لوحة القيادة",
     icon: "icon-chart-pie-36",
     class: ""
   },
   {
     path: "/icons",
-    title: "Icones",
+    title: "Cadastro de produtos",
     rtlTitle: "الرموز",
     icon: "icon-atom",
     class: ""
-  },
-  {
-    path: "/maps",
-    title: "Mapas",
-    rtlTitle: "خرائط",
-    icon: "icon-pin",
-    class: "" },
-  {
-    path: "/notifications",
-    title: "Notificações",
-    rtlTitle: "إخطارات",
-    icon: "icon-bell-55",
-    class: ""
-  },
+   },
+  //{
+   // path: "/maps",
+   //// title: "Mapas",
+   // rtlTitle: "خرائط",
+    //icon: "icon-pin",
+   // class: "" },
+  //{
+   // path: "/notifications",
+   // title: "Notificações",
+    //rtlTitle: "إخطارات",
+   // icon: "icon-bell-55",
+   // class: ""
+  //},
 
   {
     path: "/user",
-    title: "Perfil de Usuário",
+    title: "Perfil de Restaurante",
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-single-02",
     class: ""
   },
-  {
-    path: "/tables",
-    title: "Lista de Tabela",
-    rtlTitle: "قائمة الجدول",
-    icon: "icon-puzzle-10",
-    class: ""
-  },
-  {
-    path: "/typography",
-    title: "Tipografia",
-    rtlTitle: "طباعة",
-    icon: "icon-align-center",
-    class: ""
-  },
+  //{
+   // path: "/tables",
+   // title: "Lista de Tabela",
+   // rtlTitle: "قائمة الجدول",
+   // icon: "icon-puzzle-10",
+   // class: ""
+  //},
+  //{
+   // path: "/typography",
+   // title: "Tipografia",
+   // rtlTitle: "طباعة",
+   // icon: "icon-align-center",
+   // class: ""
+  //},
   {
     path: "/rtl",
     title: "JFJ Suporte",

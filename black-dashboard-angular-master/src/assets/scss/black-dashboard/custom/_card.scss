@@ -1,5 +1,5 @@
 .card{
-    background: $card-black-background;
+    background: rgb(245, 245, 244);
     border: 0;
     position: relative;
     width: 100%;
@@ -8,7 +8,7 @@
 
 
     label{
-      color: rgba($white, 0.6);
+      color: $black;
     }
 
     .card-title {
